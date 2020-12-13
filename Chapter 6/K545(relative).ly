@@ -37,7 +37,7 @@ RHStaff = \relative c'{
 	f2(\! a4) c | e,4.( f16 g f4) r | d'2( c4) f | c( bf8\prall a16 bf a4) r |
 	d,8( e16 f g a bf c d c bf a g f e d | c8 d16 e f g a bf c bf a g f e d c |
 	bf8 c16 d e f g a bf a g f e d c bf | a8 bf16 c d e f g a g f e d c bf a |
-	a'4) r r <c, a'> | <c g'> r r <c g'> | <c f> r r <b! f'> | <c e> r r <c e> |
+	a'4) r r <c, a'> | <c g'> r r q | <c f> r r <b! f'> | <c e> r r q |
 	d16(\cresc d, e f g a b cs d a b cs d e f g | a b c! b a g f e f g a g f e d c\! |
 	b8)-.\f g'-. e-. c-. d-. g-. e-. c-. | d4-. <b d g>-. g-. r | R1 |
 	g'8( e) c4.( d16 e d8) c-. | c8.(\prall b16) 4 r2 |
@@ -58,7 +58,7 @@ LHStaff = \relative c'{
 	f4) r r
 	
 	\clef bass
-	<c f,>4 | <c e,> r r <c e,> | <c d,> r r <b d,> | <c c,> r r <e, c> | <f a>1 |
+	<c f,>4 | <c e,> r r q | <c d,> r r <b d,> | <c c,> r r <e, c> | <f a>1 |
 	f4. g8 a4. fs8 | g,16 b d g g, c e g g, b d g g, c e g | g,4-. g'-. g,-. r |
 	cs'16\p d cs d cs d cs d c d c d c d c d | b d b d b d b d b d b d b d b d |
 	c d b d a d b d c d b d c d a d | b d b d b d b d b d b d b d b d |
@@ -85,7 +85,7 @@ LHStaff = \relative c'{
 	\clef bass r16 b( f' e d c b a | gs4) r r16 (a c b a g! f e | d2) <c g' bf> |
 	\clef treble f'8( c' a c f, c' a c | g c bf c f, c' a c |
 	f, d' bf d f, c' a c | e, c' g c f, c' a c | bf4) r r 
-	\clef bass <bf, f'>4 | <a f'> r r <a f'> | <g f'> r r <g e'> | <f f'> r r2 |
+	\clef bass <bf, f'>4 | <a f'> r r q | <g f'> r r <g e'> | <f f'> r r2 |
 	f8( g16 a bf c d e f e d c bf a g f | e8 f16 g a b! c d e d c b a g f e |
 	d8 e16 f g a b c d c b a g f e d | c8 d16 e f g a b c b a g f e d c) |
 	<f a>1 | f4. g8 a4. fs8 | g,16( b d g g, c e g g, b d g g, c e g | g,4)-. g' g, r |
