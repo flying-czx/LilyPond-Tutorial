@@ -46,10 +46,10 @@ lyric = \lyricmode {
     }
     \new Lyrics { 
       \set associatedVoice = "melody"
-      Now the ground is white, "  " go it while you're young.
+      Now the ground is white, \skip 1 go it while you're young.
       Take the girls to -- night, and_sing this sleigh -- ing song.
       Just_get a bob -- tailed bay, two_for -- ty as his speed.
-      "  " Hitch him to an o -- pen sleigh and crack! you'll take the lead.
+      \skip 1 Hitch him to an o -- pen sleigh and crack! you'll take the lead.
     }
   >>
   Jin -- gle bells, jin -- gle bells, jin -- gle all the way!
