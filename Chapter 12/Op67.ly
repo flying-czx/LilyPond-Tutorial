@@ -54,7 +54,7 @@ Horn = \relative c'{
   \tempo 2=108
   \numericTimeSignature
   \time 2/4
-  \transposition ef,
+  \transposition ef
   R2*17 | r8 e'8[\cresc e e]\! | e4\f r4 |
   <c c,>4 r4 | <e e,>4 r4 \fermata |
 }
@@ -64,7 +64,6 @@ Trombone = \relative c'{
   \tempo 2=108
   \numericTimeSignature
   \time 2/4
-  \transposition c
   R2*17 | r8 <g' g,>8[\cresc q q]\! | <c c,>4\f r4 |
   <c c,>4 r4 | <g g,>4 r4 \fermata |
 }
@@ -75,7 +74,6 @@ Timpani = \relative c'{
   \numericTimeSignature
   \time 2/4
   \clef bass
-  \transposition c
   R2*17 | r8 g,8[\cresc g g]\! | c4\f r4 |
   c4 r4 | g4 r4 \fermata |
 }
@@ -116,7 +114,7 @@ Cello = \relative c'{
 Bass = \relative c'{
   \global
   \clef bass
-  \transposition c,
+  \transposition c
   r8 g8[\ff g g] | ef2\fermata | r8 f[\p f f] | d2~ | d2\fermata | R2*12 |
   r8 b8\p[\cresc 8 8]\! | c4\f r4 | af4 r4 | g4 r4\fermata |
 }
